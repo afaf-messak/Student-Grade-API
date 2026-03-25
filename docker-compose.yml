@@ -11,6 +11,7 @@ services:
     restart: unless-stopped
 
   auth-service:
+  
     build: ./auth-service
     container_name: auth-service
     environment:
@@ -56,7 +57,7 @@ services:
     build: ./frontend
     container_name: frontend
     ports:
-      - "80:80"
+      - "8080:80"
     depends_on:
       - gateway
     restart: unless-stopped
