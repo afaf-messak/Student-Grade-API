@@ -65,6 +65,6 @@ Attendre que tous les services démarrent, puis ouvrir :
 - **Nginx** — Serveur web pour le frontend
 
 ## Auteurs
-Afaf Messak
-Ennouari Fatima
-Fatihi khadija
+ - Afaf Messak
+ - Ennouari Fatima
+ - Fatihi khadija
