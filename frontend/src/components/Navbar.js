@@ -5,14 +5,14 @@ export default function Navbar({ user, onLogout }) {
   const location = useLocation();
 
   const navLinks = [
-    { to: '/students', label: '👨‍🎓 Étudiants' },
-    { to: '/subjects', label: '📚 Matières' },
-    { to: '/grades',   label: '📊 Notes' },
+    { to: '/students', label: ' Étudiants' },
+    { to: '/subjects', label: ' Matières' },
+    { to: '/grades',   label: ' Notes' },
   ];
 
   return (
     <nav style={styles.nav}>
-      <div style={styles.brand}>🎓 Student Grade API</div>
+      <div style={styles.brand}> Student Grade API</div>
       <div style={styles.links}>
         {navLinks.map(link => (
           <Link key={link.to} to={link.to} style={{

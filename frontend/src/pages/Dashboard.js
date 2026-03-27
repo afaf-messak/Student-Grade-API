@@ -14,10 +14,10 @@ export default function Dashboard() {
   }, []);
 
   const cards = [
-    { label: 'Étudiants inscrits', value: stats.students, icon: '👨‍🎓', color: '#3b5bdb' },
-    { label: 'Matières disponibles', value: stats.subjects, icon: '📚', color: '#0ca678' },
-    { label: 'Services actifs', value: 3, icon: '⚙️', color: '#f76707' },
-    { label: 'Base de données', value: 'MongoDB', icon: '🗄️', color: '#9c36b5', isText: true },
+    { label: 'Étudiants inscrits', value: stats.students, color: '#3b5bdb' },
+    { label: 'Matières disponibles', value: stats.subjects, color: '#0ca678' },
+    { label: 'Services actifs', value: 3,  color: '#f76707' },
+    { label: 'Base de données', value: 'MongoDB',  color: '#9c36b5', isText: true },
   ];
 
   return (
@@ -36,7 +36,7 @@ export default function Dashboard() {
       </div>
 
       <div style={styles.infoBox}>
-        <h3 style={{ margin: '0 0 12px', color: '#1a1a2e' }}>🚀 Endpoints disponibles</h3>
+        <h3 style={{ margin: '0 0 12px', color: '#1a1a2e' }}>Endpoints disponibles</h3>
         <div style={styles.endpoints}>
           {[
             { method: 'POST', path: '/auth/register', desc: 'Créer un compte' },

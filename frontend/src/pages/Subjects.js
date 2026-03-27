@@ -45,7 +45,7 @@ export default function Subjects() {
   return (
     <div style={styles.container}>
       <div style={styles.header}>
-        <h2 style={styles.title}>📚 Matières</h2>
+        <h2 style={styles.title}> Matières</h2>
         <button style={styles.addBtn} onClick={() => setShowForm(!showForm)}>
           {showForm ? '✕ Annuler' : '+ Ajouter'}
         </button>

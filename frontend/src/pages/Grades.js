@@ -59,7 +59,7 @@ export default function Grades() {
 
   return (
     <div style={styles.container}>
-      <h2 style={styles.title}>📊 Gestion des Notes</h2>
+      <h2 style={styles.title}> Gestion des Notes</h2>
 
       <div style={styles.tabs}>
         <button style={tab === 'add' ? styles.tabActive : styles.tab} onClick={() => setTab('add')}>
